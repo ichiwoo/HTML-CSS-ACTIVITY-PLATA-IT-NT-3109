@@ -1,0 +1,75 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;  
+}
+
+.Center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#sale {
+    font-size: 35px;
+    color: red;
+}
+
+
+.Left {
+    text-align: left;
+}
+
+.tabled {
+    width: 100%;
+    border: 1px solid rgba(226, 225, 225);
+    border-spacing: 0;
+    text-align: left;
+}
+
+thead {
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    width: 50%;
+}
+
+td {
+  border: 1px solid rgba(226, 225, 225);
+  padding: 4px 6px;
+}
+
+.heading {
+    background-color: rgb(99, 98, 98);
+}
+
+.box {
+    width:  auto;
+    height: auto;
+    padding: 40px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+}
+
+.field {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fieldtext {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 12px;
+    padding: 3px;
+    
+}
+    
